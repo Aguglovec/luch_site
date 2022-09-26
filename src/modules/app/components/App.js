@@ -6,8 +6,11 @@ import Header from '../../common/header/components/Header'
 function App() {
   return (
     <>
+        <div className="container bg-mainBg bg-repeat-y bg-cover">
+
     <Header />
     <Outlet />
+    </div>
     </>
   )
 }

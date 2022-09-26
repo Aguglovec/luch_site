@@ -12,6 +12,9 @@ module.exports = {
         mainBg: "url('./img/mainBg.png')",
         headerBg: "url('./modules/common/header/img/headerBg.jpg')",
         menuBg: "url('./modules/common/header/img/menuBg.png')",
+      },
+      fontFamily: {
+        pattaya: 'Pattaya',
       }
     },
   },

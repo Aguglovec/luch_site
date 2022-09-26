@@ -12,11 +12,11 @@ function onMenuBtnClick() {
 
 return (
     <>
-    <header className="w-full container relative h-36 md:h-[600px] xl:h-[900px] bg-headerBg bg-center md:bg-cover">
+    <header className="w-full container relative h-36 bg-headerBg bg-cover bg-no-repeat    ">
     {(showMenu) ? <Menu  btnClick={onMenuBtnClick}/> : ""}
         <div className=" p-6 flex justify-between ">
-            <Link to="/main">
-            <img src={require('../img/logo.png')} alt='logo' className='w-14 md:w-36'/>
+            <Link to="/main" className='z-30'>
+            <img src={require('../img/logo.png')} alt='logo' className='w-14 sm:w-36 md:ml-6 xl:ml-16'/>
             </Link>
 
             <ul id="menu" className="hidden absolute top-0 right-0 px-10 py-16 bg-gray-800 z-50 md:relative md:flex justify-center w-full md:p-0 md:bg-transparent md:flex-row md:space-x-6 xl:space-x-16">
@@ -48,9 +48,8 @@ return (
                 </button>
             </div>
         </div>
-            <div className="absolute w-full font-['Ledger'] text-xl md:text-4xl xl:text-6xl text-center text-white top-1/2 xl:top-2/3 left-1/2 -translate-x-1/2  z-20">
+            <div className="absolute md:hidden w-full font-['Ledger'] text-xl md:text-4xl xl:text-6xl text-center text-white top-1/2 xl:top-2/3 left-1/2 -translate-x-1/2  z-20">
                 Маленькая парикмахерская<br />с большой историей</div>
-            <img src={require('../img/hero.png')} alt='hero' className='hidden md:block absolute max-h-[80%]  bottom-0 left-1/2 -translate-x-1/2  z-10'/>
 
     </header>
     </>
