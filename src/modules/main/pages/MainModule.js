@@ -8,15 +8,15 @@ import Hero from '../components/Hero'
 
 function MainModule() {
   return (
-    <>
-    <Hero />
-    <Services />
-    <Gallery />
-    <History />
-    <Prices />
-    <Location />
+    <div className="">
+      <Hero />
+      <Services />
+      <Gallery />
+      <History />
+      <Prices />
+      <Location />
 
-    </>
+    </div>
     )
 }
 

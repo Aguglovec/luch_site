@@ -2,8 +2,8 @@ import React from 'react'
 
 function Prices() {
   return (
-<section className="m-1 font-pattaya text-white tracking-widest leading-6">
-  <div className="container px-5 md:px-10 py-12 lg:py-20 mx-auto flex flex-wrap justify-center bg-[#37200d] bg-opacity-50">
+<section className="font-pattaya text-white tracking-widest leading-6">
+  <div className="container px-5 md:px-10 py-12 lg:py-20 mx-auto flex flex-wrap justify-center bg-[#341e07bf] mix-blend-multiply">
     <div className="flex w-full mb-8 flex-wrap ">
       <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold w-full text-center lg:mb-0 mb-4">Прейскурант</h1>
     </div>

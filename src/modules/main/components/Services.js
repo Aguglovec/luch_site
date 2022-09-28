@@ -6,34 +6,32 @@ import hand from '../img/hand.svg';
 function Services() {
   return (
 <section >
-
-
-  <div class="container px-5 pb-10 mx-auto ">
-    <div class="flex flex-wrap sm:mx-auto sm:mb-2">
-      <div class="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
+  <div className="container px-5 pt-10 mx-auto ">
+    <div className="flex flex-wrap sm:mx-auto sm:mb-2">
+      <div className="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
 
         <img src={require('../img/service1.jpg')} alt="БРИТЬЁ" className=''/>
-          <span class="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold ">БРИТЬЁ</span>
+          <span className="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold ">БРИТЬЁ</span>
       </div>
-      <div class="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
+      <div className="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
 
         <img src={require('../img/service2.jpg')} alt="СТРИЖКА" className=''/>
-          <span class="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold ">СТРИЖКА<br />УКЛАДКА</span>
+          <span className="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold ">СТРИЖКА<br />УКЛАДКА</span>
       </div>
-      <div class="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
+      <div className="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
 
         <img src={require('../img/service3.jpg')} alt="МЫТЬЁ" className=''/>
-          <span class="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold ">МЫТЬЁ<br />УХОД ЗА КОЖЕЙ</span>
+          <span className="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold ">МЫТЬЁ<br />УХОД ЗА КОЖЕЙ</span>
       </div>
-      <div class="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
+      <div className="p-1 md:w-1/4 w-1/2 flex h-full items-center justify-center">
 
         <img src={require('../img/service4.jpg')} alt="РИСУНОК" className=''/>
-          <span class="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold">РИСУНОК</span>
+          <span className="absolute text-white text-center text-base sm:text-xl xl:text-3xl font-extrabold">РИСУНОК</span>
       </div>
     </div>
   </div>
 
-  <div className="container px-5 py-10 mx-auto flex sm:flex-row flex-col justify-start ">
+  <div className="container px-5 py-8 mx-auto flex sm:flex-row flex-col justify-start ">
     <div className="flex items-center lg:w-3/5 mx-auto flex-row sm:flex-col ">
       <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full  flex-shrink-0">
       <img src={coffee} alt="coffee" className='sm:w-16 sm:h-16'/>

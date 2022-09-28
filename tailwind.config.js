@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         pattaya: 'Pattaya',
+        robotoCond: 'Roboto Condensed',
       }
     },
   },

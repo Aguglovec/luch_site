@@ -10,8 +10,8 @@ function Hero() {
                 Маленькая парикмахерская<br />с большой историей</div>
 
         </div>
-        <div className="flex flex-col text-center w-full pt-20 md:pt-0 mb-10 z-30">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Цирюльникъ — мужская парикмахерская с богатой историей</h1>
+        <div className="flex flex-col text-center w-full pt-20 md:pt-0 mb-4 sm:mb-10 z-30">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">"ЛУЧ" — мужская парикмахерская с богатой историей</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">У НАС ЕСТЬ ВСЁ, ЧТО ТРЕБУЕТСЯ НАСТОЯЩЕМУ МУЖЧИНЕ: АТМОСФЕРА БРУТАЛЬНОСТИ И МУЖСКОГО ДУХА, ПРОФЕССИОНАЛИЗМ МАСТЕРОВ И ПЕРСОНАЛЬНЫЙ ПОДХОД.</p>
         </div>
     </section>
